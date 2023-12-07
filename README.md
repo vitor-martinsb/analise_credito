@@ -18,28 +18,17 @@ Este projeto consiste em uma implementação de modelagem preditiva usando Pytho
 
 O projeto é organizado da seguinte maneira:
 
-project-root/
-│
-├── data/
-│ ├── input/
-│ │ ├── application_train.csv
-│ │ └── application_test.csv
-│
-│ ├── model_training.py
-│ └── model_evaluation.py
-│
-├── model.py
-├── model_ml.ipynb
-├── explorer.ipynb
-├── app.py
-└── random_forest_model.pkl
-│
-└── README.md
-└── .gitignore
+1) Carregue os arquivos localizados (https://www.kaggle.com/competitions/home-credit-default-risk) para a pasta data/input 
+2) Crie o modelo executando o notebook model_ml.ipynb, ele irá gerar o modelo do random forest, caso opte por outro modelo, basta alterar o código
+3) Execute o arquivo app.py e acesse http://127.0.0.1:8050/. O Dash será encontrado aqui:
 
-- **data/:** Contém os arquivos de dados necessários para treinamento do modelo.
-- **model/:** Contém os scripts Python para carregar dados, treinar modelos e avaliar a performance.
-- **app/:** Contém a implementação da API Flask incorporada com Dash, incluindo o arquivo serializado do modelo Random Forest.
+![image](https://github.com/vitor-martinsb/analise_credito/assets/59899402/3959f1b8-261b-437b-bbfb-fb3a182d2377)
+
+4) Carregue o arquivo exemplo_teste.csv ou application_test.csv no Dash e execute caso a colunas estejam corretas o dash será executado 
+
+![image](https://github.com/vitor-martinsb/analise_credito/assets/59899402/c1d89b15-273f-4a1c-acfe-b8ead82499b0)
+
+5) Realize a análise de crédito com base nos 3 scores e a probabilidade de compra
 
 ---
 
