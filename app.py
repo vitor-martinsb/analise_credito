@@ -46,9 +46,9 @@ app.layout = html.Div([
     dbc.Navbar(
         [
             dbc.Col(html.H1("Análise de Crédito", style={'fontFamily': 'Verdana', 'fontWeight': 'bold',
-                    'color': '#ffff00', 'textAlign': 'center', 'lineHeight': '50px', 'fontSize': '30px'})),
+                    'color': 'white', 'textAlign': 'center', 'lineHeight': '50px', 'fontSize': '30px'})),
             dbc.Col(html.Img(
-                src="https://www.itau.com.br/media/dam/m/44c875ea1f4b31e2/webimage-logo_cmsless_varejo.png",
+                src="https://www.itau.com.br/media/dam/m/5f03a85a73812bd2/webimage-Header_Logo-Itau.png",
                 width="50px",
                 height='auto',
                 style={'float': 'right','marginRight' : '50px'}
