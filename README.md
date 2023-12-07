@@ -1,18 +1,7 @@
 
 ## Projeto de Modelagem Preditiva
 
-Este projeto consiste em uma implementação de modelagem preditiva usando Python para treinar e avaliar modelos de aprendizado de máquina. Os modelos são treinados para prever a variável alvo "TARGET" em um conjunto de dados fornecido.
-
-### Conteúdo
-
-1. [Estrutura do Projeto](#estrutura-do-projeto)
-2. [Pré-requisitos](#pré-requisitos)
-3. [Instalação](#instalação)
-4. [Como Usar](#como-usar)
-5. [Resultados](#resultados)
-6. [Referências](#referências)
-
----
+Este projeto consiste em uma implementação de modelagem usando Python para treinar e avaliar modelos de aprendizado de máquina e realizar análise de crédito. Os modelos são treinados para prever a variável alvo "TARGET" em um conjunto de dados fornecido.
 
 ### Estrutura do Projeto
 
